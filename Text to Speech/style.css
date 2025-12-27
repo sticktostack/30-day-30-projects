@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+}
+.main{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: azure;
+}
+.container{
+    gap: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 16rem;
+    padding: 10px 20px;
+    border-radius: 20px;
+    width: 30rem;
+    background-color: bisque;
+}
+.container h3{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.msgbox {
+    padding: 10px;
+    width: 85%;
+    height: 150px;
+    background-color: azure;
+    border: none;
+    resize: none;          /* optional: disables resize handle */
+    outline: none;
+    font-size: 16px;
+    text-align: left;
+    vertical-align: top;
+    white-space: pre-wrap; /* wraps text */
+    overflow-wrap: break-word;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1.1em;
+}
+.speech{
+    padding: 10px 30px;
+    border: none;
+    background-color: springgreen;
+    color: #020202;
+    border-radius: 50px;
+    font-weight: 700;
+    cursor: pointer;
+}
